@@ -50,7 +50,7 @@ public class SingletonClass {
     private SingletonClass() {
     }
 
-    private static SingletonClass getInstance() {
+    public static SingletonClass getInstance() {
         if (singleton == null) {
             singleton = new SingletonClass();
         }
