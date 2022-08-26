@@ -12,7 +12,7 @@ of the class exists within a system to provide a global access point. So what
 does this mean and why should we implement it?
 
 Think of a country as a system and a singleton as a government for a minute. If
-the country were to have more than one government, there could result in chaos
+the country were to have more than one government, it could result in chaos
 with different governments conflicting. It is easier to just have one and let
 that government be the one that is globally accepted. The same goes for a
 singleton within a system. Perhaps we only want one instance of this class to
